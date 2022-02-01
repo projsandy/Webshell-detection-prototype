@@ -4,7 +4,7 @@
 Web shells primarily target existing web applications and rely on creating or modifying files. The best method of detecting these web shells is to compare a verified benign version of the web application (i.e., a “known-good”) against the production version. But any discrepancies should be manually reviewed for authenticity. 
 
 # Proposed Solution:
-In this solution, I am automating the scanning and collection of modified files from the various customer’s servers remotely (Linux + Windows).  I am storing all collected files on pagentra’s server and perform analysis using VirusTotal. Result of this analysis will get displayed to the user on their respective SiteWALL Dashboard.  User then will take necessary actions according to the dashboard. Entire process will be automated. This solution will provide added layer of security to the Web Application firewall.  
+In this solution, I am automating the scanning and collection of modified files from the various customer servers remotely (Linux + Windows).  I am storing all collected files on pagentra server and perform analysis using VirusTotal. Result of this analysis will get displayed to the user on their respective SiteWALL Dashboard.  User then will take necessary actions according to the dashboard. Entire process will be automated. This solution will provide added layer of security to the Web Application firewall.  
 
 
 # Technology used:
@@ -17,4 +17,4 @@ Bash | Windows Batch | Virus Total
 > Note - All scripts will be converted to executable binaries before uploading to production server.   
 > Users need to download these files(Agent) from their respective SiteWALL dashboard. 
 
-All the project documentation and SOP is submitted to pagentra infosec pvt. ltd.
+The project documentation and SOP is submitted to pagentra infosec pvt. ltd.
