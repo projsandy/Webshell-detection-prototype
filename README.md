@@ -15,6 +15,6 @@ Bash | Windows Batch | Virus Total
 > Total scripts = 3 (for Linux agent) + 3 (for Windows agent) + 2 (for sitewall Admin) = 8   
 > Script-names present in this prototype may differ on production server.   
 > Note - All scripts will be converted to executable binaries before uploading to production server.   
-> Users need to download these files(Agent) from their respective SiteWALL dashboard. 
+> Users need to download these files(Agents) from their respective SiteWALL dashboard. 
 
 The project documentation and SOP is submitted to pagentra infosec pvt. ltd.
